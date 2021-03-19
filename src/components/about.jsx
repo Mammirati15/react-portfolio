@@ -11,21 +11,14 @@ class About extends React.Component {
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          porcentage: "80%",
+          value: "80"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
           porcentage: "80%",
           value: "80"
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
         },
         {
           id: "VanillaJS_skill",
@@ -38,7 +31,13 @@ class About extends React.Component {
           content: "Wordpress",
           porcentage: "80%",
           value: "80"
-        }
+        },
+        {
+          id: "Postman_skill",
+          content: "Postman",
+          porcentage: "80%",
+          value: "80"
+        },
       ],
       about_me: [
         {
