@@ -23,7 +23,7 @@ class Intro extends React.Component {
                       "Front End Developer",
                       "Back End Developer",
                       "Software Engineer",
-                      "UX Developer"
+                      "UX Designer"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}

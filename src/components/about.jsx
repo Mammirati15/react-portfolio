@@ -6,25 +6,31 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "HTML5_skill", content: "HTML5", porcentage: "90%", value: "90" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "90%", value: "90" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "80%",
-          value: "80"
+          porcentage: "85%",
+          value: "85"
         },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
+          porcentage: "85%",
+          value: "85"
+        },
+        {
+          id: "ReactNativeJS_skill",
+          content: "React Native",
           porcentage: "80%",
           value: "80"
         },
         {
           id: "VanillaJS_skill",
           content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          porcentage: "80%",
+          value: "80"
         },
         {
           id: "Wordpress_skill",
@@ -33,27 +39,51 @@ class About extends React.Component {
           value: "80"
         },
         {
+          id: "Bootstrap_skill",
+          content: "Bootstrap",
+          porcentage: "85%",
+          value: "85"
+        },
+        {
           id: "Postman_skill",
           content: "Postman",
           porcentage: "80%",
           value: "80"
+        },
+        {
+          id: "NodeJs_skill",
+          content: "NodeJS",
+          porcentage: "85%",
+          value: "85"
+        },
+        {
+          id: "AWS_skill",
+          content: "AWS",
+          porcentage: "90%",
+          value: "90"
+        },
+        {
+          id: "Mongo_skill",
+          content: "MongoDB",
+          porcentage: "85%",
+          value: "85                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
         },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "My name is Matt Ammirati and I am a Freelance Full Stack Developer and UX Designer.  I began my career journey by stumbling backwards into an interest in software development beause I didn't know much about how the internet worked and was curious.  I started just trying to understand what HTML and CSS was and I was instantly hooked!"
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Once I realized that web and software development was what I really wanted to do, I began learning by myself with online resources like completing a Treehouse Full Stack Javascript course, different courses on Pluralsight, watching and following along with different tutorials, then I aquired a personal mentor.  I worked with my teacher at least once a day for 2 years covering everything in full stack javascript including: React, Express, different databases, API's and unit testing."
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "After studying with him over the years, I then decided to complete a full stack bootcamp.  I graduated in August of 2020 and began my career in Freelance Development. Since then I have been working with different clients completing tasks utilizing tools like Wordpress, as well as all the tools I learned along the way. I currently work with 2 clients one with a focus on Wordpress, the other with AWS Serverless and React."
         }
       ]
     };
