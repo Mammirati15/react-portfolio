@@ -73,7 +73,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "My name is Matt Ammirati and I am a Freelance Full Stack Developer and UX Designer.  I began my career journey by stumbling backwards into an interest in software development beause I didn't know much about how the internet worked and was curious.  I started just trying to understand what HTML and CSS was and I was instantly hooked!"
+            "My name is Matt Ammirati and I am a Freelance Full Stack Developer and UX Designer.  I am a full stack developer day to day with an oline media company"
         },
         {
           id: "second-p-about",
