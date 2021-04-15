@@ -1,7 +1,7 @@
 import React from "react";
 
 //import stock
-import stock from "../img/image1.jpg";
+import stock from "../img/EmCam.png";
 import stock1 from "../img/image2.jpg";
 import stock2 from "../img/image3.jpg";
 import stock3 from "../img/image4.jpg";
@@ -34,10 +34,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">MERN Ecommerce Website</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            React Redux Express Node MongoDB
                           </span>
                         </div>
                       </div>

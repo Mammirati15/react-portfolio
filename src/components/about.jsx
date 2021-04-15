@@ -73,17 +73,17 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "My name is Matt Ammirati and I am a Freelance Full Stack Developer and UX Designer.  I am a full stack developer day to day with an oline media company"
+            "My name is Matt Ammirati and I am a Freelance Full Stack Developer and UX Designer.  I am a full stack developer day to day for a media services company."
         },
         {
           id: "second-p-about",
           content:
-            "Once I realized that web and software development was what I really wanted to do, I began learning by myself with online resources like completing a Treehouse Full Stack Javascript course, different courses on Pluralsight, watching and following along with different tutorials, then I aquired a personal mentor.  I worked with my teacher at least once a day for 2 years covering everything in full stack javascript including: React, Express, different databases, API's and unit testing."
+            "When I realized software was what I wanted to focus on, I began teaching myself with online resources like completing a Treehouse Full Stack Javascript course, different courses on Pluralsight, watching and following along with different tutorials, then I aquired a personal mentor.  I worked with my teacher at least once a day for 2 years covering everything in full stack javascript including: React, Express, different databases, API's and unit testing."
         },
         {
           id: "third-p-about",
           content:
-            "After studying with him over the years, I then decided to complete a full stack bootcamp.  I graduated in August of 2020 and began my career in Freelance Development. Since then I have been working with different clients completing tasks utilizing tools like Wordpress, as well as all the tools I learned along the way. I currently work with 2 clients one with a focus on Wordpress, the other with AWS Serverless and React."
+            "After studying with him over the years, I then decided to complete a full stack bootcamp.  I graduated in August of 2020 and began my career in Freelance Development. Since then I have been working with different clients completing tasks utilizing tools like AWS, Wordpress, Postman and other tools I learned along the way. I currently work with 2 clients one with a focus on Wordpress, the other with React, Redux, and AWS Serverless."
         }
       ]
     };
