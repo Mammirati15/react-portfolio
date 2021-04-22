@@ -21,7 +21,7 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="mailto:matt.ammirati@gmail.com"
                           method="POST"
                           className="contactForm"
                         >
@@ -117,7 +117,7 @@ class Contact extends React.Component {
                       </div>
                       <div className="socials">
                         <ul>
-                          
+
                           <li>
                             <a
                               href="https://github.com/Mammirati15"
