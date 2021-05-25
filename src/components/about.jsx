@@ -78,7 +78,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "When I realized software was what I wanted to focus on, I began teaching myself with online resources like completing a Treehouse Full Stack Javascript course, different courses on Pluralsight, watching and following along with different tutorials, then I aquired a personal mentor.  I worked with my teacher at least once a day for 2 years covering everything in full stack javascript including: React, Express, different databases, API's and unit testing."
+            "When I realized software was what I wanted to focus on, I began teaching myself with online resources like completing a Full Stack Javascript course, different courses on Pluralsight, watching and following along with different tutorials, then I aquired a personal mentor.  I worked with my teacher at least once a day for 2 years covering everything in full stack javascript including: React, Express, different databases, API's and unit testing."
         },
         {
           id: "third-p-about",
