@@ -4,7 +4,7 @@ import React from "react";
 import stock from "../img/EmCam.png";
 import stock1 from "../img/SocialNetworkHome.png";
 import stock2 from "../img/app4em.png";
-import stock3 from "../img/image4.jpg";
+import stock3 from "../img/fvigroup.png";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
@@ -210,19 +210,19 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            {/* <div className="col-md-4">
+            <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href="http://fvigroup.org/">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock3} alt="" className="img-fluid" style={{height: 350}} />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">fvigroup.org</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                            Wordpress Elementor
                           </span>
                         </div>
                       </div>
@@ -271,7 +271,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-smth">
                   <div className="work-img">
