@@ -5,7 +5,7 @@ import stock from "../img/EmCam.png";
 import stock1 from "../img/SocialNetworkHome.png";
 import stock2 from "../img/app4em.png";
 import stock3 from "../img/fvigroup.png";
-import stock4 from "../img/image5.jpg";
+import stock4 from "../img/githubSearch.png";
 import stock5 from "../img/image6.jpg";
 
 class Portfolio extends React.Component {
@@ -271,18 +271,18 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            {/* <div className="col-md-4">
+            <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href="https://main.d26wxwy926ttdy.amplifyapp.com/" >
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock4} alt="" className="img-fluid" style={{height: 350}} />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">GitHub Search Application</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
+                          <span className="w-ctegory">React using Github API and Context API</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -330,7 +330,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            {/*<div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-mf">
                   <div className="work-img">
