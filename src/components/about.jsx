@@ -27,6 +27,12 @@ class About extends React.Component {
           value: "80"
         },
         {
+          id: "Redux_skill",
+          content: "Redux",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
           id: "VanillaJS_skill",
           content: "VanillaJS",
           porcentage: "80%",
@@ -53,6 +59,12 @@ class About extends React.Component {
         {
           id: "NodeJs_skill",
           content: "NodeJS",
+          porcentage: "85%",
+          value: "85"
+        },
+        {
+          id: "Express_skill",
+          content: "Express",
           porcentage: "85%",
           value: "85"
         },
