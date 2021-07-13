@@ -6,7 +6,7 @@ import stock1 from "../img/SocialNetworkHome.png";
 import stock2 from "../img/app4em.png";
 import stock3 from "../img/fvigroup.png";
 import stock4 from "../img/githubSearch.png";
-import stock5 from "../img/image6.jpg";
+import stock5 from "../img/yourcontacts.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -148,21 +148,21 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+
+                        <div className="col-md-4">
               <div className="work-box">
-                <a href="https://github.com/Mammirati15/app4em" >
+                <a href="https://fast-spire-44514.herokuapp.com/register">
                   <div className="work-img">
-                    <img src={stock2} alt="" className="img-fluid" style={{height: 350}}/>
+                    <img src={stock5} alt="" className="img-fluid" style={{height: 350}} />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Full Stack Video Streaming App</h2>
+                        <h2 className="w-title">Full Stack MERN Contact Holder</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            React Redux AWSLambda APIGateway DynamoDB YouTube API
+                            React ContextAPI NodeJS Express MongoDB
                           </span>
-                          {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -175,41 +175,44 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={stock1}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock2}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock3}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock4}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock5}
-                  data-lightbox="gallery-todo"
+                  data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
             </div>
+
+
+
             <div className="col-md-4">
               <div className="work-box">
                 <a href="http://fvigroup.org/">
@@ -271,6 +274,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="work-box">
                 <a href="https://main.d26wxwy926ttdy.amplifyapp.com/" >
@@ -330,20 +334,21 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            {/*<div className="col-md-4">
+                        <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href="https://github.com/Mammirati15/app4em" >
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock2} alt="" className="img-fluid" style={{height: 350}}/>
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Full Stack Video Streaming App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
+                            React Redux AWSLambda APIGateway DynamoDB YouTube API
                           </span>
+                          {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -356,41 +361,42 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={stock1}
-                  data-lightbox="gallery-mf"
+                  data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock2}
-                  data-lightbox="gallery-mf"
+                  data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock3}
-                  data-lightbox="gallery-mf"
+                  data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock4}
-                  data-lightbox="gallery-mf"
+                  data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={stock5}
-                  data-lightbox="gallery-mf"
+                  data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-            </div> */}
+            </div>
+
           </div>
         </div>
       </section>
